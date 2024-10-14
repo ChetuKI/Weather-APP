@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right ,green,skyblue);
+}
+
+.searchIp {
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid;
+    width: 150px;
+}
+
+.searchBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+
+.WeatherPhoto {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.degree {
+    font-size: 40px;
+}
+
+span {
+    font-size: 25px;
+    color: rgb(255, 87, 57);
+}

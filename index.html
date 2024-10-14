@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images.jpeg">
+</head>
+<body>
+    <div class="main">
+        <h1 style="color: turquoise; text-shadow: 3px 3px 6px black;">WeatherAPI</h1>
+        <div class="box">
+            <input type="text" placeholder="Enter City name" class="searchIp">
+            <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <br>
+            <img src="sun.webp" alt="SUN" class="WeatherPhoto">
+            <br>
+            <h2 class="degree">0°C</h2>
+        </div>
+        <h3>Made with <span><i class="fa-solid fa-heart"></i></span> by ChetanKI</h3>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>  <!-- Axios CDN-->
+    <script src="app.js"></script>
+</body>
+</html>
